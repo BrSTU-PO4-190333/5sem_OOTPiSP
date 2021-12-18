@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>gpi_MainWindow</class>
+ <widget class="QMainWindow" name="gpi_MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>272</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>gpi_MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="0" column="0">
+     <widget class="QLabel" name="gpi_label_author">
+      <property name="text">
+       <string>=Галанин П. И.=</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="2">
+     <widget class="QLabel" name="gpi_label_title">
+      <property name="text">
+       <string>=gpi_ootpisp_lab3_option5_task1=</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0" colspan="3">
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="1" column="0">
+       <widget class="QLabel" name="gpi_label_input1">
+        <property name="text">
+         <string>gpi_ Первое число</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QLabel" name="gpi_label_input2">
+        <property name="text">
+         <string>gpi_ Второе число</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="2">
+       <widget class="QLabel" name="gpi_label_input3">
+        <property name="text">
+         <string>gpi_ Третье число</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QLineEdit" name="gpi_lineEdit_input1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QLineEdit" name="gpi_lineEdit_input2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="2">
+       <widget class="QLineEdit" name="gpi_lineEdit_input3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="0">
+       <widget class="QLabel" name="gpi_label_output1">
+        <property name="text">
+         <string>gpi_ Первое число</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="1">
+       <widget class="QLabel" name="gpi_label_output2">
+        <property name="text">
+         <string>gpi_ Второе число</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="2">
+       <widget class="QLabel" name="gpi_label_output3">
+        <property name="text">
+         <string>gpi_ Третье число</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="0">
+       <widget class="QLineEdit" name="gpi_lineEdit_output1"/>
+      </item>
+      <item row="5" column="1">
+       <widget class="QLineEdit" name="gpi_lineEdit_output2"/>
+      </item>
+      <item row="5" column="2">
+       <widget class="QLineEdit" name="gpi_lineEdit_output3"/>
+      </item>
+      <item row="3" column="0" colspan="3">
+       <widget class="QLabel" name="gpi_label_output">
+        <property name="text">
+         <string>gpi_ Наибольшее число заменено разностью двух других чисел</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0" colspan="3">
+       <widget class="QLabel" name="gpi_label_input">
+        <property name="text">
+         <string>gpi_ Поля ввода</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="0" column="1">
+     <spacer name="gpi_horizontalSpacer">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>415</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
