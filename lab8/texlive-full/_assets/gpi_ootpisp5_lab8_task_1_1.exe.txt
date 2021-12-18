@@ -1,0 +1,25 @@
+Hello World!
+
+ . constructor object
+
+ . constructor object
+  `-- constructor bitmapImage
+     `-- constructor text
+
+ . constructor object
+  `-- constructor vectorImage
+     `-- constructor line
+
+ . constructor object
+  `-- constructor vectorImage
+     `-- constructor rectangle
+
+ . constructor object
+  `-- constructor vectorImage
+     `-- constructor ellipse
+
+ . constructor object
+  `-- constructor bitmapImage
+
+ . constructor object
+  `-- constructor vectorImage
