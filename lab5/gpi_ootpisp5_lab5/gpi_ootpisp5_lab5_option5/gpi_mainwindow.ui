@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>gpi_MainWindow</class>
+ <widget class="QMainWindow" name="gpi_MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>299</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>gpi_MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="2">
+     <widget class="QLabel" name="gpi_label_title">
+      <property name="text">
+       <string>=gpi_MainWindow=</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <spacer name="gpi_horizontalSpacer">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>311</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="0" column="0">
+     <widget class="QLabel" name="gpi_label_author">
+      <property name="text">
+       <string>=Галанин П. И.=</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0" colspan="3">
+     <widget class="QPushButton" name="gpi_pushButton_employeeform">
+      <property name="layoutDirection">
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">text-align: left;</string>
+      </property>
+      <property name="text">
+       <string>gpi_ Добавить сотрудника</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0" colspan="3">
+     <widget class="QPushButton" name="gpi_pushButton_paymentform">
+      <property name="styleSheet">
+       <string notr="true">text-align: left;</string>
+      </property>
+      <property name="text">
+       <string>gpi_ Добавить выплату</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="0" colspan="3">
+     <widget class="QPushButton" name="gpi_pushButton_monthpayday">
+      <property name="styleSheet">
+       <string notr="true">text-align: left;</string>
+      </property>
+      <property name="text">
+       <string>gpi_ Вывод заработной платы за месяц по каждому работнику</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="0" colspan="3">
+     <widget class="QPushButton" name="gpi_pushButton_monthjob">
+      <property name="styleSheet">
+       <string notr="true">text-align: left;</string>
+      </property>
+      <property name="text">
+       <string>gpi_ Вывод вида работ работника за месяц</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="0" colspan="3">
+     <widget class="QPushButton" name="gpi_pushButton_closeapp">
+      <property name="styleSheet">
+       <string notr="true">text-align: left;</string>
+      </property>
+      <property name="text">
+       <string>gpi_ Выход из программы</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0" colspan="3">
+     <widget class="QLabel" name="gpi_label_description">
+      <property name="text">
+       <string>gpi_ Выбираем действие</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>600</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
