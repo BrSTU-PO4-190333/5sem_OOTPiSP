@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="@">
+        <file>gpi_favicon.png</file>
+        <file>gpi_f.txt</file>
+    </qresource>
+</RCC>
